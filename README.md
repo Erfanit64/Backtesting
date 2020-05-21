@@ -171,3 +171,5 @@ summary(C4)
 ![](https://github.com/JingsiTheExplorer/Backtesting/blob/master/pictures/performance.png)
 However, the annualized mean return of S&P500 is 11.92%, which means our portfolio strategy can not beat the market during those years.
 The alpha of CAPM, FF-3-factors model, and Corhart-4-factors model are pretty low, which means the return of our strategy can be explained mostly by market premium, size premium, value premium, and momentum.
+
+see slides here [Backtesting_presentation.pdf](https://github.com/JingsiTheExplorer/Backtesting/blob/master/Backtesting_presentation.pdf)
