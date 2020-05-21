@@ -14,7 +14,8 @@ cross-sectional linear regression, Fama-MacBeth
 - Collected annual return for development set and monthly return for validation set from WRDS
 
 ## Data wrangling and cleaning
-- Since some factors(eg. ROA, ROE...) have only value at midyear, while other factors(eg. turnover rate...) have value on each day, we use the mid-year value or calculated the mean value from midpoint of last year to the midpoint of this year. see code here [TO_year.ipynb](https://github.com/JingsiTheExplorer/Backtesting/blob/master/code/TO_year.ipynb)
+- Since some factors(eg. ROA...) have only value at midyear, while other factors(eg. turnover rate...) have value on each day, we use the mid-year value or calculated the mean value from midpoint of last year to the midpoint of this year. see code here [TO_year.ipynb](https://github.com/JingsiTheExplorer/Backtesting/blob/master/code/TO_year.ipynb)
+
 ![roa.png](https://github.com/JingsiTheExplorer/Backtesting/blob/master/pictures/roa.png) ![to.png](https://github.com/JingsiTheExplorer/Backtesting/blob/master/pictures/to.png)
 - Merged all the factors data on stock "permno" and "year". Merged factors data with the return next year
 - Removed factors with too many missing values to ensure the final dataset has enough observations
