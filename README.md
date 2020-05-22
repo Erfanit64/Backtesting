@@ -169,7 +169,8 @@ summary(C4)
 
 ```
 ![](https://github.com/JingsiTheExplorer/Backtesting/blob/master/pictures/performance.png)
-The annualized mean return of S&P500 is 11.92%, and the average borrowing interest rate is around 3.5%, which means our portfolio strategy bellow the market return a little during those years. However, considering market risk, interest rate risk that are hedged by the long-short strategy, our portfolio strategy might beat the market.
+The annualized mean return of S&P500 was 11.92% and the average borrowing interest rate was around 3.5% during that period, which means our portfolio strategy bellow the market return a little during those years. However, considering market risk, interest rate risk that are hedged by the long-short strategy, our portfolio strategy might beat the market.
+
 The alpha of CAPM, FF-3-factors model, and Corhart-4-factors model are pretty low, which means the return of our strategy can be explained mostly by market premium, size premium, value premium, and momentum.
 
 see slides here [Backtesting_presentation.pdf](https://github.com/JingsiTheExplorer/Backtesting/blob/master/Backtesting_presentation.pdf)
